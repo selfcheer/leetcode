@@ -1,7 +1,7 @@
 package main
 
-import "github.com/selfcheer/leetcode/linked_list"
+import "github.com/selfcheer/leetcode/hashtable"
 
 func main() {
-	linked_list.TestReverseList()
+	hashtable.TestIsAnagram()
 }
