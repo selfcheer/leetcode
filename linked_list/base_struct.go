@@ -7,7 +7,7 @@ type ListNode struct {
 
 
 
-func SliceToListNode(nums []int) (head *ListNode) {
+func SliceToListNodes(nums []int) (head *ListNode) {
 	var cur *ListNode
 	for _, num := range nums {
 		if head == nil {
@@ -27,7 +27,7 @@ func SliceToListNode(nums []int) (head *ListNode) {
 	return head
 }
 
-func ListNodeToSlice(head *ListNode) (nums []int) {
+func ListNodesToSlice(head *ListNode) (nums []int) {
 	nums = make([]int,0)
 	for head != nil {
 		nums = append(nums, head.Val)

@@ -1,5 +1,7 @@
 package linked_list
 
+import "fmt"
+
 /**
 设计链表的实现。您可以选择使用单链表或双链表。单链表中的节点应该具有两个属性：val和next。val是当前节点的值，next是指向下一个节点的指针/引用。如果要使用双向链表，则还需要一个属性prev以指示链表中的上一个节点。假设链表中的所有节点都是 0-index 的。
 
@@ -125,4 +127,14 @@ func (l *MyLinkedList) DeleteAtIndex(index int)  {
 	}
 	l.Head = dummy.Next
 	l.Size --
+}
+
+func TestDesignLinkedList() {
+	myLL := Constructor()
+	myLL.AddAtHead(1)
+	myLL.AddAtTail(3)
+	myLL.AddAtIndex(1, 2)
+	fmt.Println(myLL.Get(1))
+	myLL.DeleteAtIndex(0)
+	fmt.Println(myLL.Get(0))
 }
