@@ -28,6 +28,9 @@ func SliceToTree(nums []interface{}) (root *TreeNode) {
 				oneLevelNodes = append(oneLevelNodes, node.Left)
 			}
 			nums = nums[1:]
+			if len(nums) == 0 {
+				break
+			}
 			if nums[0] != nil {
 				node.Right = &TreeNode{Val: nums[0].(int)}
 				oneLevelNodes = append(oneLevelNodes, node.Right)
