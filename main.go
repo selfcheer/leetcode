@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/selfcheer/leetcode/linked_list"
+	"github.com/selfcheer/leetcode/tree"
 )
 
 func main() {
-	linked_list.TestSwapPairs()
+	tree.TestInorderTraversal()
 }
