@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/selfcheer/leetcode/tree"
+	"github.com/selfcheer/leetcode/dynamic_programming"
 )
 
 func main() {
-	tree.TestBinaryTreePaths()
+	dynamic_programming.TestClimbStairs()
 }
