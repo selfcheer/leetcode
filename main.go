@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/selfcheer/leetcode/dynamic_programming"
+	"github.com/selfcheer/leetcode/twopointer"
 )
 
 func main() {
-	dynamic_programming.TestClimbStairs()
+	twopointer.TestMoveZeroes()
 }
