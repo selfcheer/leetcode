@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	twopointer.TestTwoSum()
+	twopointer.TestReverseWords()
 }
