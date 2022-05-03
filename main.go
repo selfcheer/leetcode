@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/selfcheer/leetcode/twopointer"
+	"github.com/selfcheer/leetcode/slidingwindow"
 )
 
 func main() {
-	twopointer.TestReverseWords()
+	slidingwindow.TestLengthOfLongestSubstring()
 }
